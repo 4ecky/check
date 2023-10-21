@@ -249,7 +249,7 @@ body::-webkit-scrollbar {
 }
 
 .header__menu-item:not(:last-child) {
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 .header__menu-link {
