@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicons/site.webmanifest">
+  <link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>Чек-лист советника</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__about">
+          <img class="header__about-img" src="./img/header/photo.png" alt="portrait">
+          <div class="header__about-text">
+            <a class="header__about-name" href="https://vk.com/agatakiskazala" target="_blank">Павлова Вероника
+              Сергеевна</a>
+            <p class="header__about-post">Советник директора МБОУ “СОШ №24” г. Владимир</p>
+          </div>
+        </div>
+        <div class="header__navigation">
+          <p class="header__navigation-name">Деятельность</p>
+          <div class="header__burger">
+            <span class="header__burger-decor"></span>
+          </div>
+        </div>
+
+        <div class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item"><a class="header__menu-link" href="#pedagogical">Педагогическая
+                деятельность</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#administrative">Административная
+                деятельность</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#inform">Информационно-методическая
+                деятельность</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#prevention">Профилактическая
+                деятельность</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#consultation">Консультативная
+                деятельность</a></li>
+          </ul>
+          <div class="socials">
+            <ul class="socials__list">
+              <li class="socials__item"><a class="socials__link" href="https://t30862l.sch.obrazovanie33.ru/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-school.png" alt="school 24"></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://xn--80aaagbeiix1cqypjeb2m.xn--p1ai/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-navi.png"
+                    alt="navigator detstva"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </header>
+  <main class="main-content">
+    <section class="check-list__header">
+      <div class="container">
+        <div class="check-list__inner">
+          <h1 class="check-list__title">Чек-лист советника</h1>
+          <div class="check-list__navigation">
+            <div class="check-list__interaction">
+              <a class="check-list__interaction-link" href="#">Период</a>
+            </div>
+            <ul class="check-list__months-list">
+              <span class="check-list__months-close"></span>
+              <div class="check-list__months-wrapper">
+                <div class="check-list__months-half">
+                  <li class="check-list__months-item"><a
+                      class="check-list__months-link active check-list__months-link--september" data-tab="#september"
+                      href="#">Сентябрь</a></li>
+                  <li class="check-list__months-item"><a class="check-list__months-link" data-tab="#october"
+                      href="#">Октябрь</a></li>
+                  <li class="check-list__months-item"><a class="check-list__months-link" data-tab="#november"
+                      href="#">Ноябрь</a></li>
+                  <li class="check-list__months-item"><a class="check-list__months-link" data-tab="#december"
+                      href="#">Декабрь</a></li>
+                  <li class="check-list__months-item"><a class="check-list__months-link" data-tab="#january"
+                      href="#">Январь</a></li>
+                  <li class="check-list__months-item"><a class="check-list__months-link" data-tab="#february"
+                      href="#">Февраль</a></li>
+                </div>
+                <div class="check-list__months-half">
+                  <li class="check-list__months-item"><a class="check-list__months-link" data-tab="#march"
+                      href="#">Март</a></li>
+                  <li class="check-list__months-item"><a class="check-list__months-link" data-tab="#april"
+                      href="#">Апрель</a></li>
+                  <li class="check-list__months-item"><a class="check-list__months-link" data-tab="#may"
+                      href="#">Май</a></li>
+                  <li class="check-list__months-item"><a class="check-list__months-link" data-tab="#june"
+                      href="#">Июнь</a></li>
+                  <li class="check-list__months-item"><a class="check-list__months-link" data-tab="#july"
+                      href="#">Июль</a></li>
+                  <li class="check-list__months-item"><a class="check-list__months-link" data-tab="#august"
+                      href="#">Август</a></li>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="months">
+      <div class="months__month active" id="september">
+        <div class="container">
+          <div class="pedagogical-activity" id="pedagogical">
+            <h2 class="title">Педагогическая деятельность</h2>
+            <div class="swiper pedagogical-activity__swiper">
+              <div class="swiper-wrapper pedagogical-activity__swiper-wrapper">
+                <div class="swiper-slide pedagogical-activity__swiper-slide">
+                  <div class="pedagogical-activity__header">
+                    <h3 class="pedagogical-activity__title">1 сентября: День знаний</h3>
+                    <a class="pedagogical-activity__link-event" href="https://vk.com/club207001875?w=wall-207001875_468"
+                      target="_blank">Ссылка на событие</a>
+                  </div>
+                  <div class="pedagogical-activity__content-inner">
+                    <div class="pedagogical-activity__textcontent-wrapper">
+                      <div class="pedagogical-activity__textcontent">
+                        <div class="pedagogical-activity__textcontent-item">
+                          <h4 class="pedagogical-activity__title-item">Аудитория</h4>
+                          <p class="pedagogical-activity__subs-item">1-11 классы, родители, педагогические работники</p>
+                        </div>
+                        <div class="pedagogical-activity__textcontent-item">
+                          <h4 class="pedagogical-activity__title-item">Описание результата</h4>
+                          <p class="pedagogical-activity__subs-item">Запустили традицию передачи самолетика от 11-го
+                            класса к первоклассникам </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pedagogical-activity__photo">
+                      <div class="swiper pedagogical-activity__photo-swiper">
+                        <div class="swiper-wrapper pedagogical-activity__wrapper-swiper">
+                          <div class="swiper-slide pedagogical-activity__photo-item"><img
+                              class="pedagogical-activity__photo-current" src="./img/event/september/first/one.jpg"
+                              alt=" day of knowledge"></div>
+                          <div class="swiper-slide pedagogical-activity__photo-item"><img
+                              class="pedagogical-activity__photo-current" src="./img/event/september/first/two.jpg"
+                              alt=" day of knowledge"></div>
+                          <div class="swiper-slide pedagogical-activity__photo-item"><img
+                              class="pedagogical-activity__photo-current" src="./img/event/september/first/three.jpg"
+                              alt=" day of knowledge"></div>
+                          <div class="swiper-slide pedagogical-activity__photo-item"><img
+                              class="pedagogical-activity__photo-current" src="./img/event/september/first/four.jpg"
+                              alt=" day of knowledge"></div>
+                          <div class="swiper-slide pedagogical-activity__photo-item"><img
+                              class="pedagogical-activity__photo-current" src="./img/event/september/first/five.jpg"
+                              alt=" day of knowledge"></div>
+                          <div class="swiper-slide pedagogical-activity__photo-item"><img
+                              class="pedagogical-activity__photo-current" src="./img/event/september/first/six.jpg"
+                              alt=" day of knowledge"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide pedagogical-activity__swiper-slide">
+                  <div class="pedagogical-activity__header">
+                    <h3 class="pedagogical-activity__title">3 сентября: День солидарности в борьбе с терроризмом</h3>
+                    <a class="pedagogical-activity__link-event" href="https://vk.com/club207001875?w=wall-207001875_471"
+                      target="_blank">Ссылка на событие</a>
+                  </div>
+                  <div class="pedagogical-activity__content-inner">
+                    <div class="pedagogical-activity__textcontent-wrapper">
+                      <div class="pedagogical-activity__textcontent">
+                        <div class="pedagogical-activity__textcontent-item">
+                          <h4 class="pedagogical-activity__title-item">Аудитория</h4>
+                          <p class="pedagogical-activity__subs-item">11 классы</p>
+                        </div>
+                        <div class="pedagogical-activity__textcontent-item">
+                          <h4 class="pedagogical-activity__title-item">Описание результата</h4>
+                          <p class="pedagogical-activity__subs-item">Викторину выиграл Колосов Максим, набрав
+                            максимальный балл.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pedagogical-activity__photo">
+                      <div class="swiper pedagogical-activity__photo-swiper">
+                        <div class="swiper-wrapper pedagogical-activity__wrapper-swiper">
+                          <div class="swiper-slide pedagogical-activity__photo-item"><img
+                              class="pedagogical-activity__photo-current" src="./img/event/september/second/02.jpg"
+                              alt="Day of Solidarity in the Fight against Terrorism"></div>
+                          <div class="swiper-slide pedagogical-activity__photo-item"><img
+                              class="pedagogical-activity__photo-current" src="./img/event/september/second/01.jpg"
+                              alt="Day of Solidarity in the Fight against Terrorism"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="pedagogical-activity__navigation-panel">
+                <div class="swiper-button-prev pedagogical-activity__event-prev"></div>
+                <div class="swiper-button-next pedagogical-activity__event-next"></div>
+              </div>
+            </div>
+          </div>
+          <div class="activity" id="administrative">
+            <div class="container">
+              <h2 class="title">Административная деятельность</h2>
+              <div class="activity__wrapper">
+                <div class="activity__cards-inner">
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Участие в рабочей группе по созданию педагогического актива по
+                        воспитательной работе ОО</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Формирование педагогического актива по вопросам воспитания</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Воспитательная работа – важный компонент образовательного процесса
+                      </p>
+                    </div>
+                  </div>
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Участие в административных совещаниях</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Изучение системы управления в школе</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Создание штаба воспитательной работы</p>
+                    </div>
+                  </div>
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Участие в методических мероприятиях ОО для педагогов</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Знакомство с системой методической работы в школе</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Повышение педагогической компетенции педагогов</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="activity" id="inform">
+            <div class="container">
+              <h2 class="title">Информационно-методическая деятельность</h2>
+              <div class="activity__wrapper">
+                <div class="activity__cards-inner">
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Информирование школьного сообщества о проведении мероприятий
+                        согласно модулям календарного плана</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Наглядное и информационное оповещение школьного сообщества о
+                        планируемых мероприятиях</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <a class="activity__card-link" href="https://vk.com/club207001875"
+                        target="_blank">https://vk.com/club207001875</a>
+                    </div>
+                  </div>
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Участие в мероприятиях, проводимых для классных руководителей школы
+                      </p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Установление контакта с классными руководителями</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Установлен контакт с классными руководителями</p>
+                    </div>
+                  </div>
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Встречи с педагогами-предметниками</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Установление контакта с педагогами-предметниками</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Установлен контакт с педагогами-предметниками</p>
+                    </div>
+                  </div>
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Установочная встреча с активом первичного отделения РДДМ «Движение
+                        первых», советом дела и советом старшеклассников</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Установление контакта с ученическим активом</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Встреча с представителями РДДМ</p>
+                    </div>
+                  </div>
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Знакомство с родителями обучающихся через родительские собрания,
+                        собрания классных родительских активов</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Установление контакта с классными руководителями</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Установлен контакт с классными руководителями</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="activity" id="prevention">
+            <div class="container">
+              <h2 class="title">Профилактическая деятельность</h2>
+              <div class="activity__wrapper">
+                <div class="activity__cards-inner">
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Встреча с педагогом-психологом и социальным педагогом</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Установление контакта</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Установлен контакт с педагогом-психологом и социальным педагогом
+                      </p>
+                    </div>
+                  </div>
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Уточнение списка обучающихся и семей, требующих особого
+                        педагогического внимания</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Установление контакта, доверительных отношений, изучение
+                        образовательных потребностей</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Вовлечение обучающихся и семей, требующих особого педагогического
+                        внимания в общешкольные мероприятия</p>
+                    </div>
+                  </div>
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Участие в планировании работы с обучающимися и семьями, требующими
+                        особого педагогического внимания</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Установление контакта, доверительных отношений</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Установлен контакт и доверительные отношения</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="activity" id="consultation">
+            <div class="container">
+              <h2 class="title">Консультативная деятельность</h2>
+              <div class="activity__wrapper">
+                <div class="activity__cards-inner">
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Консультации по вопросам организации и проведения занятий
+                        «Разговоры о важном»</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Знакомство с системой управления ОО, организацией образовательного
+                        процесса</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Подчеркнуть важность образования для каждого человека
+                      </p>
+                    </div>
+                  </div>
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Консультации по вопросам организации патриотической работы с
+                        классом</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Знакомство с воспитательной системой ОО</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Вовлечение детей в Юнармию</p>
+                    </div>
+                  </div>
+                  <div class="activity__card">
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Описание</h3>
+                      <p class="activity__card-subs">Консультации обучающихся и их родителей</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Цель</h3>
+                      <p class="activity__card-subs">Включение в планирование воспитательной работы</p>
+                    </div>
+                    <div class="activity__info-row">
+                      <h3 class="activity__card-title">Результат</h3>
+                      <p class="activity__card-subs">Корректировка плана воспитательной работы на основе предложения
+                        родителей</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="months__month" id="october">
+        <div class="container">
+          <p class="not-time">Период еще не наступил :)</p>
+          <div class="not-time__socials">
+            <ul class="socials__list">
+              <li class="socials__item"><a class="socials__link" href="https://t30862l.sch.obrazovanie33.ru/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-school.png" alt="school 24"></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://xn--80aaagbeiix1cqypjeb2m.xn--p1ai/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-navi.png"
+                    alt="navigator detstva"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="months__month" id="november">
+        <div class="container">
+          <p class="not-time">Период еще не наступил :)</p>
+          <div class="not-time__socials">
+            <ul class="socials__list">
+              <li class="socials__item"><a class="socials__link" href="https://t30862l.sch.obrazovanie33.ru/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-school.png" alt="school 24"></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://xn--80aaagbeiix1cqypjeb2m.xn--p1ai/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-navi.png"
+                    alt="navigator detstva"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="months__month" id="december">
+        <div class="container">
+          <p class="not-time">Период еще не наступил :)</p>
+          <div class="not-time__socials">
+            <ul class="socials__list">
+              <li class="socials__item"><a class="socials__link" href="https://t30862l.sch.obrazovanie33.ru/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-school.png" alt="school 24"></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://xn--80aaagbeiix1cqypjeb2m.xn--p1ai/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-navi.png"
+                    alt="navigator detstva"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="months__month" id="january">
+        <div class="container">
+          <p class="not-time">Период еще не наступил :)</p>
+          <div class="not-time__socials">
+            <ul class="socials__list">
+              <li class="socials__item"><a class="socials__link" href="https://t30862l.sch.obrazovanie33.ru/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-school.png" alt="school 24"></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://xn--80aaagbeiix1cqypjeb2m.xn--p1ai/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-navi.png"
+                    alt="navigator detstva"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="months__month" id="february">
+        <div class="container">
+          <p class="not-time">Период еще не наступил :)</p>
+          <div class="not-time__socials">
+            <ul class="socials__list">
+              <li class="socials__item"><a class="socials__link" href="https://t30862l.sch.obrazovanie33.ru/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-school.png" alt="school 24"></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://xn--80aaagbeiix1cqypjeb2m.xn--p1ai/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-navi.png"
+                    alt="navigator detstva"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="months__month" id="march">
+        <div class="container">
+          <p class="not-time">Период еще не наступил :)</p>
+          <div class="not-time__socials">
+            <ul class="socials__list">
+              <li class="socials__item"><a class="socials__link" href="https://t30862l.sch.obrazovanie33.ru/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-school.png" alt="school 24"></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://xn--80aaagbeiix1cqypjeb2m.xn--p1ai/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-navi.png"
+                    alt="navigator detstva"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="months__month" id="april">
+        <div class="container">
+          <p class="not-time">Период еще не наступил :)</p>
+          <div class="not-time__socials">
+            <ul class="socials__list">
+              <li class="socials__item"><a class="socials__link" href="https://t30862l.sch.obrazovanie33.ru/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-school.png" alt="school 24"></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://xn--80aaagbeiix1cqypjeb2m.xn--p1ai/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-navi.png"
+                    alt="navigator detstva"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="months__month" id="may">
+        <div class="container">
+          <p class="not-time">Период еще не наступил :)</p>
+          <div class="not-time__socials">
+            <ul class="socials__list">
+              <li class="socials__item"><a class="socials__link" href="https://t30862l.sch.obrazovanie33.ru/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-school.png" alt="school 24"></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://xn--80aaagbeiix1cqypjeb2m.xn--p1ai/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-navi.png"
+                    alt="navigator detstva"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="months__month" id="june">
+        <div class="container">
+          <p class="not-time">Период еще не наступил :)</p>
+          <div class="not-time__socials">
+            <ul class="socials__list">
+              <li class="socials__item"><a class="socials__link" href="https://t30862l.sch.obrazovanie33.ru/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-school.png" alt="school 24"></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://xn--80aaagbeiix1cqypjeb2m.xn--p1ai/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-navi.png"
+                    alt="navigator detstva"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="months__month" id="july">
+        <div class="container">
+          <p class="not-time">Период еще не наступил :)</p>
+          <div class="not-time__socials">
+            <ul class="socials__list">
+              <li class="socials__item"><a class="socials__link" href="https://t30862l.sch.obrazovanie33.ru/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-school.png" alt="school 24"></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://xn--80aaagbeiix1cqypjeb2m.xn--p1ai/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-navi.png"
+                    alt="navigator detstva"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="months__month" id="august">
+        <div class="container">
+          <p class="not-time">Период еще не наступил :)</p>
+          <div class="not-time__socials">
+            <ul class="socials__list">
+              <li class="socials__item"><a class="socials__link" href="https://t30862l.sch.obrazovanie33.ru/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-school.png" alt="school 24"></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://xn--80aaagbeiix1cqypjeb2m.xn--p1ai/"
+                  target="_blank"><img class="socials__img" src="./img/header/logo-navi.png"
+                    alt="navigator detstva"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

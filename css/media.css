@@ -1,0 +1,177 @@
+@media (max-width: 768px) {
+
+  /* !header */
+  .header__inner {
+    flex-wrap: wrap;
+  }
+
+  .header__about {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .header__about-img {
+    margin: 0 auto 25px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .header__about-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header__navigation {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .header__navigation-name {
+    font-size: 32px;
+  }
+
+  /* !menu-burger */
+  .header__menu-list{
+    text-align: center;
+  }
+  .header__menu-link{
+    max-width: 425px;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 28px;
+  }
+    /* !months */
+  .months__month.active {
+    margin-top: 50px;
+  }
+
+  .header__about-name {
+    font-size: 32px;
+  }
+
+  .header__about-post {
+    font-size: 24px;
+  }
+
+  /* !slider = 768*/
+  .pedagogical-activity__content-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .pedagogical-activity__textcontent {
+    margin-bottom: 25px;
+    margin-right: 0;
+  }
+
+  .pedagogical-activity__navigation-panel {
+    justify-content: center;
+    margin: 30px auto 0;
+  }
+  /* !!!===========================ACTIVITY-768px */
+  .activity__cards-inner{
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .activity__card{
+    width: 100%;
+  }
+  .activity__info-row{
+    margin: 0 auto;
+  }
+  .not-time{
+    text-align: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .header__about {
+    margin-bottom: 70px;
+  }
+
+  /* !check-list__header */
+  .check-list__inner {
+    margin-top: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .check-list__title {
+    order: 2;
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .check-list__interaction-link {
+    order: 1;
+    font-size: 32px;
+    position: relative;
+  }
+
+  .check-list__interaction-link::before {
+    position: absolute;
+    top: 0;
+    right: -60px;
+    width: 40px;
+    height: 40px;
+  }
+
+  /* !period = 560px */
+  .check-list__months-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+    margin-top: 100px;
+    margin-bottom: 25px;
+  }
+
+  .check-list__months-half {
+    width: 100%;
+    text-align: center;
+  }
+
+  .check-list__months-half:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+
+  .check-list__months-close {
+    top: 30px;
+  }
+
+  /* !==========months */
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .pedagogical-activity__header {
+    flex-wrap: wrap;
+  }
+
+  .pedagogical-activity__title {
+    width: 100%;
+  }
+
+  .pedagogical-activity__link-event {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  /* !slider=560px */
+  .pedagogical-activity__navigation-panel {
+    justify-content: flex-end;
+    margin: 25px auto 0;
+  }
+  .not-time{
+    font-size: 32px;
+  }
+}
