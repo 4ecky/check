@@ -185,8 +185,9 @@ body::-webkit-scrollbar {
 
 .header__burger.active {
   position: absolute;
-  top: 30px;
+  bottom: 30px;
   left: 50%;
+  transform: translateX(-50%);
 }
 
 .header__burger.active::before {
@@ -231,14 +232,17 @@ body::-webkit-scrollbar {
   transition: all .2s linear;
   padding: 0 10px;
 }
-.header__menu-list{
+
+.header__menu-list {
   overflow: auto;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
 }
-.header__menu-list::-webkit-scrollbar{
+
+.header__menu-list::-webkit-scrollbar {
   width: 0;
 }
+
 .header__menu.active {
   top: 0;
   transition: all .2s linear;
@@ -262,7 +266,7 @@ body::-webkit-scrollbar {
 
 .socials {
   position: absolute;
-  bottom: 20px;
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -276,7 +280,7 @@ body::-webkit-scrollbar {
 }
 
 .socials__img {
-  
+
   max-width: 100%;
   display: inline-block;
 }
@@ -566,6 +570,7 @@ body::-webkit-scrollbar {
 .activity__wrapper {
   margin-top: 50px;
 }
+
 .activity__cards-inner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -619,16 +624,20 @@ body::-webkit-scrollbar {
 .activity__card-subs {
   font-size: 15px;
 }
-.activity__card-link{
+
+.activity__card-link {
   font-size: 15px;
 }
-.activity__card-link:visited{
+
+.activity__card-link:visited {
   color: #330165;
 }
-.not-time{
+
+.not-time {
   font-size: 48px;
 }
-.not-time__socials{
+
+.not-time__socials {
   margin-top: 100px;
   display: flex;
   justify-content: center;

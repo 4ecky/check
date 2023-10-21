@@ -70,7 +70,7 @@ const swiperPedagogical = new Swiper('.pedagogical-activity__swiper', {
 });
 //!================== swiper-pedagogical__gallery
 const swiperPhoto = new Swiper('.pedagogical-activity__photo-swiper', {
-  direction: 'vertical',
+  direction: 'horizontal',
   loop: true,
   autoplay: {
     delay: 2000,
