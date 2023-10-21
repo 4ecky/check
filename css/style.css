@@ -237,6 +237,7 @@ body::-webkit-scrollbar {
   overflow: auto;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
+  text-align: center;
 }
 
 .header__menu-list::-webkit-scrollbar {
