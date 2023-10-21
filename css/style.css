@@ -231,7 +231,14 @@ body::-webkit-scrollbar {
   transition: all .2s linear;
   padding: 0 10px;
 }
-
+.header__menu-list{
+  overflow: auto;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+.header__menu-list::-webkit-scrollbar{
+  width: 0;
+}
 .header__menu.active {
   top: 0;
   transition: all .2s linear;
