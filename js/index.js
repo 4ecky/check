@@ -72,6 +72,7 @@ const swiperPedagogical = new Swiper('.pedagogical-activity__swiper', {
 const swiperPhoto = new Swiper('.pedagogical-activity__photo-swiper', {
   direction: 'vertical',
   loop: true,
+  spaceBetween: 5,
   autoplay: {
     delay: 2000,
     stopOnLastSlide: true,
