@@ -467,6 +467,7 @@ body::-webkit-scrollbar {
 
 .pedagogical-activity__title {
   font-weight: 700;
+  max-width: 1000px;
 }
 
 .pedagogical-activity__link-event {
